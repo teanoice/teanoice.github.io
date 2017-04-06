@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 5,
+    "uniqCompNum": 12,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -124,7 +124,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sneaker Info = ?</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box1-4\">Rank</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header6-0\">Release Date</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-3\" aria-expanded=\"true\">Customize</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box1-4\">Rank</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#header6-0\">Release Date</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#msg-box8-8\">Online Shop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#features3-3\">Customize</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#social-buttons2-a\">More News</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "header1",
@@ -134,7 +134,8 @@
               "font-family": "'PT Serif', serif",
               "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i",
               "color": "#ffffff",
-              "text-align": "left"
+              "text-align": "left",
+              "font-size": "84px"
             }
           },
           "_anchor": "header1-1",
@@ -198,40 +199,32 @@
           "title": "What's the most popular sneaker now?"
         },
         {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#28262b",
-              "font-size": "46px"
-            },
-            ".mbr-section-text": {
-              "color": "#565656"
-            }
-          },
+          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_name": "header6",
-          "_anchor": "header6-0",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-b",
           "_params": {
             "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1ff84fd69639ddc16b371998e26cef18-thumbnail-images-white-2560-2000x1125.png",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#ffffff",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
             "inverse": true,
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
+            "showText": false,
+            "showButtons": true
           },
           "media": {
             "image": {
@@ -250,14 +243,178 @@
               "loop": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
               "link": "",
               "size": 250
             }
           },
-          "title": "Sneaker Release Dates",
-          "text": "You can see all the info about the sneakers release dates.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://sneakernews.com/release-dates/\" data-toolbar=\"-mbrBtnMove\">get start</a>"
+          "title": "Sneaker Release Dates<br><span style=\"font-weight: normal;\">You can see all the info about the sneakers release dates.&nbsp;</span>",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"http://sneakernews.com/release-dates/\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "_styles": {
+            "H3": {
+              "font-size": "46px"
+            },
+            "SPAN": {
+              "font-size": "18px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "color": "#c1c1c1"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1609.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "Online Shop",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-7",
+          "_params": {
+            "columnsColor": "#000000",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "3",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/foot-locker-logo-600x364.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Foot Locker",
+          "subtitle1": "",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"http://www.footlocker.com/\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/eastbay-600x313.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Eastbay",
+          "subtitle2": "",
+          "caption2": "",
+          "button2": "<a data-app-btn=\"true\" href=\"http://www.eastbay.com/\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/famous-footwear-546x233-600x256.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Famous FootWear",
+          "subtitle3": "",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"http://www.famousfootwear.com/\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#000000"
+            }
+          }
         },
         {
           "_tags": [
@@ -338,7 +495,7 @@
           "title1": "Nike ID",
           "subtitle1": "",
           "caption1": "<b>NIKEiD</b> is a service provided by Nike allowing customers to personalize and design their own Nike merchandise.",
-          "button1": "<a data-app-btn=\"true\" href=\"http://www.nike.com/us/en_us/c/nikeid\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"http://www.nike.com/us/en_us/c/nikeid\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">get start</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/ad-600x313.png",
@@ -353,8 +510,8 @@
           },
           "title2": "Adidas customize",
           "subtitle2": "",
-          "caption2": "<b>Adidas Customize</b> is a &nbsp;service provided by Nike allowing customers to personalize and design their own Nike merchandise.",
-          "button2": "<a data-app-btn=\"true\" href=\"http://www.adidas.com/us/customize\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "caption2": "<b>Adidas Customize</b> is a &nbsp;service provided by Adidas allowing customers to personalize and design their own Nike merchandise.",
+          "button2": "<a data-app-btn=\"true\" href=\"http://www.adidas.com/us/customize\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">get start</a>",
           "media3": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/ree-600x313.png",
@@ -369,8 +526,8 @@
           },
           "title3": "Your Reebok",
           "subtitle3": "",
-          "caption3": "<b>Your Reebok</b>&nbsp; is a  service provided by Nike allowing customers to personalize and design their own Nike merchandise.",
-          "button3": "<a data-app-btn=\"true\" href=\"http://www.reebok.com/us/customize\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">get start</a>",
+          "caption3": "<b>Your Reebok</b>&nbsp; is a  service provided by Reebok allowing customers to personalize and design their own Nike merchandise.",
+          "button3": "<a data-app-btn=\"true\" href=\"http://www.reebok.com/us/customize\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">get start</a>",
           "media4": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
@@ -407,6 +564,32 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "More Fashion News",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/hypebeast\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/hypebeastzh/?brand_redir=10862404186\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/hypebeastzh/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         }
       ]
     }
